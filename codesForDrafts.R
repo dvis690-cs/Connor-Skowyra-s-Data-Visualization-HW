@@ -6,7 +6,7 @@ rm(list = ls())
 # read in data ------------------------------------------------------------
 #set working directory
 
-filename="theFile.csv"
+filename="https://github.com/dvis690-cs/Connor-Skowyra-s-Data-Visualization-HW/raw/main/theFile.csv"
 mydata=read.csv(filename)
 
 
@@ -71,3 +71,4 @@ del4Draft
 
 # save del4Draft ----------------------------------------------------------
 saveRDS(del4Draft, file = "del4Draft.rds")
+
