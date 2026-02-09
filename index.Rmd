@@ -1,0 +1,50 @@
+---
+title: "Connor Skowyra's Dashbord at DACSS Visualization"
+bibliography: UMASS Data Visualization.bib
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+## Intro {.sidebar}
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2026.
+
+### References
+<div id="refs"></div>
+
+## Column {data-width="450"}
+
+### Worst barplot <!-- a title for plot -->
+
+```{r}
+link1="https://github.com/dvis690-cs/Connor-Skowyra-s-Data-Visualization-HW/raw/main/del1Draft.rds"
+readRDS(url(link1))
+```
+
+### Worst histogram 
+
+```{r}
+link2="https://github.com/dvis690-cs/Connor-Skowyra-s-Data-Visualization-HW/raw/main/del2Draft.rds"
+readRDS(url(link2))
+```
+
+## Column {data-width="550"}
+
+### Worst scatterplot
+
+```{r}
+link3="https://github.com/dvis690-cs/Connor-Skowyra-s-Data-Visualization-HW/raw/main/del3Draft.rds"
+readRDS(url(link3))
+```
+
+### Worst map
+
+```{r}
+link4="https://github.com/dvis690-cs/Connor-Skowyra-s-Data-Visualization-HW/raw/main/del4Draft.rds"
+readRDS(url(link4))
+```
